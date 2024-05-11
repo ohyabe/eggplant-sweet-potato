@@ -13,9 +13,9 @@ import Header from './components/Header.vue'
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/Test">Test</RouterLink>
+        <RouterLink to="/Activity">Activity</RouterLink>
         <RouterLink to="/fetch">fetch</RouterLink>
-        <RouterLink to="/fetch2">fetch2</RouterLink>
+        <!-- <RouterLink to="/fetch2">fetch2</RouterLink> -->
         <RouterLink to="/fetch3">fetch3</RouterLink>
       </nav>
     </div>

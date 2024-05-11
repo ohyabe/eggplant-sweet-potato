@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import { onMounted, ref } from "vue";
 
 let events = ref(null);
@@ -348,4 +348,4 @@ margin-block: 0 0;
   }
 }
 
-</style>
+</style> -->

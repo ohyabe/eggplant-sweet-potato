@@ -3,9 +3,9 @@ import { onMounted, ref } from "vue";
 
 // 聲明數據
 const pictures = ref([
-  { image: "/src/views/圖/20191007141522_44.jpg", link: "https://www.youtube.com/watch?v=6RBYmR5GesQ&ab_channel=%E6%BB%BE%E7%9F%B3%E5%94%B1%E7%89%87ROCKRECORDS", alt: "Image 1" },
-  { image: "/src/views/圖/20211021085456147.webp", link: "https://www.youtube.com/watch?v=NjdqQyC7Rkc&ab_channel=MilkMilkxi", alt: "Image 2" },
-  { image: "/src/views/圖/台北101觀景台門票.jpg", link: "https://www.youtube.com/shorts/n9B-ctjfob4", alt: "Image 3" }
+  { image: "/public/imags/活動/1.jpg", link: "https://www.youtube.com/watch?v=6RBYmR5GesQ&ab_channel=%E6%BB%BE%E7%9F%B3%E5%94%B1%E7%89%87ROCKRECORDS", alt: "Image 1" },
+  { image: "/public/imags/活動/2.webp", link: "https://www.youtube.com/watch?v=NjdqQyC7Rkc&ab_channel=MilkMilkxi", alt: "Image 2" },
+  { image: "/public/imags/活動/3.jpg", link: "https://www.youtube.com/shorts/n9B-ctjfob4", alt: "Image 3" }
 ]);
 const selectedImage = ref("");
 const selectedLink = ref("");
@@ -25,12 +25,12 @@ onMounted(setRandomImage);
 
 // 宣告圖片資料的陣列
 const images = ref([
-  { image: "/src/views/圖/白河蓮花季系列活動3.jpg", alt: "Image 1" },
-  { image: "/src/views/圖/臺南香科年-魚頭君追香去2.jpg", alt: "Image 2" },
-  { image: "/src/views/圖/臺南香科年3.jpg", alt: "Image 3" } ,
-  { image: "/src/views/圖/發現玉井之美全國攝影比賽3.jpg", alt: "Image 1" },
-  { image: "/src/views/圖/臺南市國際龍舟錦標賽.webp", alt: "Image 2" },
-  { image: "/src/views/圖/Pokémon GO「官方路線」在台南.jpg", alt: "Image 3" }
+  { image: "/public/imags/活動/4.jpg", alt: "Image 1" },
+  { image: "/public/imags/活動/5.jpg", alt: "Image 2" },
+  { image: "/public/imags/活動/6.jpg", alt: "Image 3" } ,
+  { image: "/public/imags/活動/7.jpg", alt: "Image 1" },
+  { image: "/public/imags/活動/8.webp", alt: "Image 2" },
+  { image: "/public/imags/活動/9.jpg", alt: "Image 3" }
   // 添加更多圖片資料
 ]);
 
