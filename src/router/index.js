@@ -13,6 +13,16 @@ const router = createRouter({
       path: '/Test',
       name: 'Test',
       component: () => import('../views/Test.vue')
+    },
+    {
+      path: '/fetch',
+      name: 'fetch',
+      component: () => import('../views/fetch.vue')
+    },
+    {
+      path: '/tainanMap',
+      name: 'tainanMap',
+      component: () => import('../views/tainanMap.vue')
     }
   ]
 })
