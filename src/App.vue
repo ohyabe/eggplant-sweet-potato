@@ -21,11 +21,11 @@ import Header from './components/Header.vue'
     </div>
   </header>
 
-=======
+
   <div class="header">
   <Header />
 </div>
->>>>>>> c4931c6d80b1e7022c8e9aa76bf25b3c0c7c42ff
+
   <RouterView />
 </template>
 
