@@ -1,9 +1,11 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 // import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
 </script>
 
 <template>
+<<<<<<< HEAD
   <header>
     <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
 
@@ -20,6 +22,11 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </header>
 
+=======
+  <div class="header">
+  <Header />
+</div>
+>>>>>>> c4931c6d80b1e7022c8e9aa76bf25b3c0c7c42ff
   <RouterView />
 </template>
 
