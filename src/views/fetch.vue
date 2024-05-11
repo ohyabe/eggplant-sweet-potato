@@ -66,6 +66,10 @@ const handleBackspaceKey = (event) => {
       </div>
     </div>
   </div>
+
+
+
+
 </template>
 
 <style scoped>
